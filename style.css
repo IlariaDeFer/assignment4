@@ -38,6 +38,11 @@ main {
   padding-left: 36px;
 }
 
+.main-nav ul li {
+  display: inline-block;
+  margin-right: 45px;
+}
+
 .main-nav a {
   text-decoration: none;
   list-style: none;
@@ -146,8 +151,29 @@ span {
 .footer-content {
   width: 1475px;
   margin: 0 auto;
+  margin-bottom: 122px;
 }
 
 .contact-form .message {
   padding-bottom: 121px;
+}
+
+.contact-left {
+  display: inline-block;
+  width: 40%;
+  margin-right: 10%;
+}
+
+.contact-right {
+  display: inline-block;
+  width: 39%;
+}
+
+.phone {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.gmail {
+  display: inline-block;
 }
