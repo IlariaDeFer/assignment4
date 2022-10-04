@@ -6,9 +6,14 @@ ul {
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Helvetica 65 Medium', sans-serif;
+}
+
 header {
   background-color: #0020f4;
   height: 387.56px;
+  padding-top: 40px;
 }
 
 .header-content {
@@ -26,6 +31,11 @@ header {
 
 main {
   margin-bottom: 198px;
+}
+
+.main-nav {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .main-nav .contacts {
@@ -54,6 +64,7 @@ main {
   width: 115px;
   height: 65px;
   object-fit: contain;
+  vertical-align: middle;
 }
 
 .main-content {
@@ -100,6 +111,7 @@ h2 {
 footer {
   background-color: #0020f4;
   padding-top: 275px;
+  padding-bottom: 122px;
 }
 
 .contact {
@@ -135,6 +147,8 @@ span {
   background-color: white;
   border-radius: 50%;
   padding: 8px;
+  vertical-align: middle;
+  margin-right: 20px;
 }
 
 .button-send {
@@ -146,12 +160,13 @@ span {
   padding-right: 36px;
   padding-bottom: 18px;
   padding-left: 36px;
+  display: inline-block;
+  margin-top: 58px;
 }
 
 .footer-content {
   width: 1475px;
   margin: 0 auto;
-  margin-bottom: 122px;
 }
 
 .contact-form .message {
